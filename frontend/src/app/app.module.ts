@@ -15,6 +15,7 @@ import {MatCardModule} from '@angular/material/card'
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCreateComponent } from './components/products/product-create/product-create.component';
 // import { ForDirective } from './directives/for.directive';
 
 @NgModule({
@@ -26,6 +27,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
         HomeComponent,
         ProductCrudComponent,
         RedDirective,
+        ProductCreateComponent,
         
         // ForDirective
     ],
