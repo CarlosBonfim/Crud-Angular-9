@@ -18,6 +18,7 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/products/product-create/product-create.component';
 // import { ForDirective } from './directives/for.directive';
+import {MatSnackBarModule} from '@angular/material/snack-bar'
 
 @NgModule({
     declarations: [
@@ -40,7 +41,9 @@ import { ProductCreateComponent } from './components/products/product-create/pro
         MatSidenavModule,
         MatListModule,
         MatCardModule,
-        MatButtonModule
+        MatButtonModule,
+        MatSnackBarModule
+        
     ],
     providers: [],
     bootstrap: [AppComponent] //aponta pra o componente que será carregado primeiro
