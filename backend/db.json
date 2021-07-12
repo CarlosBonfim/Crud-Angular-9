@@ -19,6 +19,21 @@
       "name": "Mouse Multilaser",
       "price": "15",
       "id": 4
+    },
+    {
+      "name": "Veio do Form",
+      "price": "123.45",
+      "id": 5
+    },
+    {
+      "name": "Geladeira",
+      "price": "5000.00",
+      "id": 6
+    },
+    {
+      "name": "Notebook",
+      "price": "2500.99",
+      "id": 7
     }
   ]
 }
