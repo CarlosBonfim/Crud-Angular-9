@@ -19,6 +19,7 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { ProductCreateComponent } from './components/products/product-create/product-create.component';
 // import { ForDirective } from './directives/for.directive';
 import {MatSnackBarModule} from '@angular/material/snack-bar'
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
     declarations: [
@@ -42,7 +43,8 @@ import {MatSnackBarModule} from '@angular/material/snack-bar'
         MatListModule,
         MatCardModule,
         MatButtonModule,
-        MatSnackBarModule
+        MatSnackBarModule,
+        HttpClientModule
         
     ],
     providers: [],
