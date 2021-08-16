@@ -21,8 +21,14 @@ export class ProductService {
         })
     }
 
+
+
     create(product: Product): Observable<Product>{
         return this.http.post<Product>(this.baseUrl, product) //Chamada para o backend ultilizando observable
+    }
+
+    read() : Observable<Product[]>{
+        return this.http.get<Product[]>(this.baseUrl) //Chamada para o backend ultilizando observable que espera uma lista de produtos
     }
 
 }
