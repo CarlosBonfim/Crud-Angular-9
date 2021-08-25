@@ -1,39 +1,34 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta Bic Preta",
-      "price": 5.89
-    },
-    {
-      "id": 2,
-      "name": "Notebook MacPro",
-      "price": 12000.89
-    },
-    {
-      "id": 3,
-      "name": "X-Box 360  250 GB",
-      "price": "1099"
-    },
-    {
-      "name": "Mouse Multilaser",
-      "price": "15",
-      "id": 4
-    },
-    {
-      "name": "Veio do Form",
-      "price": "123.45",
-      "id": 5
-    },
-    {
-      "name": "Geladeira",
-      "price": "5000.00",
-      "id": 6
-    },
-    {
       "name": "Notebook",
       "price": "2500.99",
       "id": 7
+    },
+    {
+      "name": "Teste",
+      "price": "5231",
+      "id": 10
+    },
+    {
+      "name": "Teste C",
+      "price": "234",
+      "id": 11
+    },
+    {
+      "name": "Teste Sfsagasd",
+      "price": "1243",
+      "id": 12
+    },
+    {
+      "name": "Teste V",
+      "price": "256",
+      "id": 13
+    },
+    {
+      "name": "Ford ka Xr 1.6",
+      "price": "12500",
+      "id": 14
     }
   ]
 }
