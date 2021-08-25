@@ -1,6 +1,7 @@
 import { ProductService } from './../product.service';
-import { Product } from './../../products/product.model';
+// import { Product } from './../../products/product.model';
 import { Component, OnInit } from '@angular/core';
+import { Product } from "./../product.model";
 
 @Component({
     selector: 'app-product-read',

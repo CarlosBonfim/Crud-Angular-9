@@ -1,4 +1,5 @@
-import { Product } from './../products/product.model';
+import { Product } from './product.model';
+// import { Product } from './../product/product.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar'
@@ -28,7 +29,7 @@ export class ProductService {
     read() : Observable<Product[]>{
         return this.http.get<Product[]>(this.baseUrl) //Chamada para o backend ultilizando observable que espera uma lista de produtos
     }
-    readById(id: string) : Observable<Product> {//Vai fazer a chamada para o backend ultilizando concatenando com a id
+    readById(id: number) : Observable<Product> {//Vai fazer a chamada para o backend ultilizando concatenando com a id
         const url = `${this.baseUrl}/${id}`
         return this.http.get<Product>(url)
     }
@@ -38,8 +39,8 @@ export class ProductService {
         return this.http.put<Product>(url, product)
     }
 
-    delete(id: string) : Observable<Product> {
-        const url = `${this.baseUrl}/${id}`
+    delete(product: Product) : Observable<Product> {
+        const url = `${this.baseUrl}/${product.id}`
         return this.http.delete<Product>(url)
     }
 
