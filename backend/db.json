@@ -2,7 +2,7 @@
   "products": [
     {
       "name": "Notebook",
-      "price": "2500.99",
+      "price": "3000",
       "id": 7
     },
     {
@@ -29,6 +29,16 @@
       "name": "Ford ka Xr 1.6",
       "price": "12500",
       "id": 14
+    },
+    {
+      "name": "Novo",
+      "price": "2222",
+      "id": 15
+    },
+    {
+      "name": "Batata",
+      "price": "231",
+      "id": 16
     }
   ]
 }
